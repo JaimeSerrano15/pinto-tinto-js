@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinto Tinto JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <h1>
+      <img src="./icon.png" alt="Paint.js" />
+      Pinto Tinto JS
+    </h1>
+  
+    <div id="container">
+      <header>
+        <button>File</button>
+        <button>Edit</button>
+        <button>View</button>
+        <button>Image</button>
+        <button>Options</button>
+        <button>Help</button>
+      </header>
+  
+      <aside>
+        <nav>
+          <button id="draw-btn" title="Brush"></button>
+          <button id="erase-btn" title="Erase"></button>
+          <button id="rectangle-btn" title="Rectangle"></button>
+          <button id="ellipse-btn" title="Elipse"></button>
+          <button disabled id="picker-btn" title="Color Pick"></button>
+          <button id="clear-btn" title="Clear"></button>
+        </nav>
+      </aside>
+  
+      <main>
+        <canvas id="canvas" width="580" height="400"></canvas>
+      </main>
+  
+      <footer>
+        <input type="color" id="color-picker" value="#000000" />
+      </footer>
+    </div>
+  </body>
+</html>
